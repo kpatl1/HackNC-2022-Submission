@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380AD29A2916D10A0023974A /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2992916D10A0023974A /* List.swift */; };
+		380AD29E2916D22F0023974A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD29D2916D22F0023974A /* Item.swift */; };
+		380AD2A22916D2B30023974A /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2A12916D2B30023974A /* ItemView.swift */; };
+		380AD2A52916DD8D0023974A /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2A42916DD8D0023974A /* AddItemView.swift */; };
+		380AD2A72916DDBD0023974A /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2A62916DDBD0023974A /* AddItem.swift */; };
+		380AD2A92916EB1A0023974A /* BuyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2A82916EB1A0023974A /* BuyListView.swift */; };
+		380AD2AB2916EB300023974A /* BoughtListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2AA2916EB300023974A /* BoughtListView.swift */; };
+		380AD2AF291716DB0023974A /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380AD2AE291716DB0023974A /* ItemStore.swift */; };
 		38AAE4142916BAFB0012AB7D /* roommateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE4132916BAFB0012AB7D /* roommateApp.swift */; };
 		38AAE4162916BAFB0012AB7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE4152916BAFB0012AB7D /* ContentView.swift */; };
 		38AAE4182916BAFD0012AB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AAE4172916BAFD0012AB7D /* Assets.xcassets */; };
@@ -14,6 +22,8 @@
 		38AAE4252916BAFD0012AB7D /* roommateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE4242916BAFD0012AB7D /* roommateTests.swift */; };
 		38AAE42F2916BAFD0012AB7D /* roommateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE42E2916BAFD0012AB7D /* roommateUITests.swift */; };
 		38AAE4312916BAFD0012AB7D /* roommateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE4302916BAFD0012AB7D /* roommateUITestsLaunchTests.swift */; };
+		38AAE43E2916BFA60012AB7D /* GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE43D2916BFA60012AB7D /* GroceryView.swift */; };
+		38AAE4422916C9760012AB7D /* GroceryInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AAE4412916C9760012AB7D /* GroceryInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		380AD2992916D10A0023974A /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		380AD29D2916D22F0023974A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		380AD2A12916D2B30023974A /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		380AD2A42916DD8D0023974A /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		380AD2A62916DDBD0023974A /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		380AD2A82916EB1A0023974A /* BuyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListView.swift; sourceTree = "<group>"; };
+		380AD2AA2916EB300023974A /* BoughtListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtListView.swift; sourceTree = "<group>"; };
+		380AD2AE291716DB0023974A /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		38AAE4102916BAFB0012AB7D /* roommate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roommate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AAE4132916BAFB0012AB7D /* roommateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roommateApp.swift; sourceTree = "<group>"; };
 		38AAE4152916BAFB0012AB7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +62,8 @@
 		38AAE42A2916BAFD0012AB7D /* roommateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roommateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AAE42E2916BAFD0012AB7D /* roommateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roommateUITests.swift; sourceTree = "<group>"; };
 		38AAE4302916BAFD0012AB7D /* roommateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roommateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38AAE43D2916BFA60012AB7D /* GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryView.swift; sourceTree = "<group>"; };
+		38AAE4412916C9760012AB7D /* GroceryInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380AD29F2916D2980023974A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				380AD2992916D10A0023974A /* List.swift */,
+				380AD2A82916EB1A0023974A /* BuyListView.swift */,
+				380AD2AA2916EB300023974A /* BoughtListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		380AD2A02916D2A00023974A /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				380AD29D2916D22F0023974A /* Item.swift */,
+				380AD2A12916D2B30023974A /* ItemView.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		380AD2A32916DD6F0023974A /* AddItem */ = {
+			isa = PBXGroup;
+			children = (
+				380AD2A42916DD8D0023974A /* AddItemView.swift */,
+				380AD2A62916DDBD0023974A /* AddItem.swift */,
+			);
+			path = AddItem;
+			sourceTree = "<group>";
+		};
 		38AAE4072916BAFB0012AB7D = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +144,14 @@
 			children = (
 				38AAE4132916BAFB0012AB7D /* roommateApp.swift */,
 				38AAE4152916BAFB0012AB7D /* ContentView.swift */,
+				38AAE43D2916BFA60012AB7D /* GroceryView.swift */,
+				380AD2A32916DD6F0023974A /* AddItem */,
+				380AD29F2916D2980023974A /* List */,
+				380AD2A02916D2A00023974A /* Item */,
+				38AAE4412916C9760012AB7D /* GroceryInput.swift */,
 				38AAE4172916BAFD0012AB7D /* Assets.xcassets */,
 				38AAE4192916BAFD0012AB7D /* Preview Content */,
+				380AD2AE291716DB0023974A /* ItemStore.swift */,
 			);
 			path = roommate;
 			sourceTree = "<group>";
@@ -257,8 +311,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AAE4422916C9760012AB7D /* GroceryInput.swift in Sources */,
+				380AD2A52916DD8D0023974A /* AddItemView.swift in Sources */,
+				380AD2AF291716DB0023974A /* ItemStore.swift in Sources */,
+				380AD29A2916D10A0023974A /* List.swift in Sources */,
+				380AD2A72916DDBD0023974A /* AddItem.swift in Sources */,
+				380AD2A92916EB1A0023974A /* BuyListView.swift in Sources */,
+				380AD2A22916D2B30023974A /* ItemView.swift in Sources */,
 				38AAE4162916BAFB0012AB7D /* ContentView.swift in Sources */,
+				380AD29E2916D22F0023974A /* Item.swift in Sources */,
 				38AAE4142916BAFB0012AB7D /* roommateApp.swift in Sources */,
+				38AAE43E2916BFA60012AB7D /* GroceryView.swift in Sources */,
+				380AD2AB2916EB300023974A /* BoughtListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
