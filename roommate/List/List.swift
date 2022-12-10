@@ -12,13 +12,13 @@ import Foundation
 struct Feed {
     var items: [GroceryItem]
     
-    static let example: Feed = Feed(items: [
+    static let needed: Feed = Feed(items: [
         GroceryItem(name: "Eggs", bought_status: false, price: 5.99),
         GroceryItem(name: "Cheese", bought_status: false, price: 4.99),
         
     ])
     
-    static let example_complete: Feed = Feed(items: [
+    static let purchased: Feed = Feed(items: [
         GroceryItem(name: "Milk", bought_status: true, price: 6.99)
     ])
     

@@ -8,20 +8,20 @@
 import SwiftUI
 
 struct BoughtListView: View {
-    let feed: Feed
-    
+    var feed: Feed
     var body: some View {
         List {
             ForEach (feed.items) {
-                item in Text(item.name + "-" + "\(item.price)").saturation(10)
-                }
-            Label("bought item", systemImage: "plus")
+                item in Text(item.name)
+            }
+            
         }
     }
 }
+
 //
-//struct BoughtListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        BoughtListView(feed .example_completefeed)
-//    }
-//}
+struct BoughtListView_Previews: PreviewProvider {
+    static var previews: some View {
+        BuyListView(feed: .purchased)
+    }
+}

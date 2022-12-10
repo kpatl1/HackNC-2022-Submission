@@ -15,30 +15,30 @@ struct GroceryView: View {
             Text("Grocery List")
             Label("6.99", systemImage: "dollarsign.circle.fill")
             
-            AddItemView()
             
             HStack {
                 VStack {
                     Text("To Buy")
-                    BuyListView(feed: .example)
+                    BuyListView(feed: .needed)
                 }
                 VStack {
                     Text("Bought")
-                    BoughtListView(feed: .example_complete)
+                    BoughtListView(feed: .purchased)
                 }
+                
+                
+                
+                
             }
-            
-        
-            
         }
     }
-}
-
-
-
-
-struct GroceryView_Previews: PreviewProvider {
-    static var previews: some View {
-        GroceryView()
+    
+    
+    
+    
+    struct GroceryView_Previews: PreviewProvider {
+        static var previews: some View {
+            GroceryView()
+        }
     }
 }
